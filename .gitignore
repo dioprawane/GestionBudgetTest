@@ -1,12 +1,4 @@
-﻿
----
-
-### 📄 Fichier `.gitignore` – spécifique pour projets .NET avec tests
-
-Tu peux le placer à la racine du projet :
-
-```gitignore
-# Build artifacts
+﻿# Build artifacts
 bin/
 obj/
 TestResults/
