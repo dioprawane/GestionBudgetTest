@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestionBudgetaireTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff69e54f873a5dbf2b83295e87f897470b0bdfde")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b50efe34f6914ce5566f1c815f3d5a28706a992b")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestionBudgetaireTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestionBudgetaireTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

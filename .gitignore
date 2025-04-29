@@ -1,0 +1,54 @@
+﻿
+---
+
+### 📄 Fichier `.gitignore` – spécifique pour projets .NET avec tests
+
+Tu peux le placer à la racine du projet :
+
+```gitignore
+# Build artifacts
+bin/
+obj/
+TestResults/
+
+# User-specific files
+*.user
+*.vspscc
+*.vssscc
+.vscode/
+.vs/
+*.suo
+*.userprefs
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dotnet tools
+*.db
+*.dotCover
+*.coverage
+*.ncrunch*
+*.nvuser
+*.vsp
+*.vspx
+
+# Rider & JetBrains
+.idea/
+*.sln.iml
+
+# Test result reports
+*.trx
+coverage/
+*.coveragexml
+
+# Others
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# VS Code
+.history/
