@@ -8,7 +8,7 @@ using GestionBudgétaire.Data.Services.ToBeRemoved;
 using GestionBudgétaire.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace GestionBudgetaireTest
+namespace GestionBudgetaireTest.Services
 {
     /*internal class TestServiceTests
     {
@@ -18,7 +18,7 @@ namespace GestionBudgetaireTest
         private async Task<ApplicationDbContext> GetInMemoryDbContextAsync()
         {
             var options = new DbContextOptionsBuilder<ApplicationDbContext>()
-                .UseInMemoryDatabase(databaseName: "TestDb_" + System.Guid.NewGuid())
+                .UseInMemoryDatabase(databaseName: "TestDb_" + Guid.NewGuid())
                 .Options;
 
             var context = new ApplicationDbContext(options);
