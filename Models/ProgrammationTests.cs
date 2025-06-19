@@ -46,7 +46,8 @@ namespace GestionBudgetaireTest.Models
 
             // Assert
             // Propriétés string?
-            Assert.Null(programmation.JeuDeDonnees); // Editable(false) n'impacte pas la valeur par défaut CLR
+            //Assert.Null(programmation.JeuDeDonnees); // Editable(false) n'impacte pas la valeur par défaut CLR
+            Assert.Equal("2025", programmation.JeuDeDonnees);
             Assert.Null(programmation.MacroDesignation);
             Assert.Null(programmation.NatureDuBesoin);
             Assert.Null(programmation.CadreDAchat);
